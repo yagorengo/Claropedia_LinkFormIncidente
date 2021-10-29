@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="FooterLinkForm"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="0dc960f5-d82e-43a1-8121-254b8911f68b"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

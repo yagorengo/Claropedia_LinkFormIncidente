@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://claroaup.sharepoint.com/sites/ClaroPedia2/SitePages/Instructivos/Roaming-Internacional.aspx",
+      "customActions": {
+        "b65f0a83-a6fc-4a20-8796-39fb9ef79cf6": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "footerLinkForm": {
+      "pageUrl": "https://claroaup.sharepoint.com/sites/ClaroPedia2/SitePages/Instructivos/Acceso-a-Amazon-Prime-desde-Claro-Tv.aspx",
+      "customActions": {
+        "0dc960f5-d82e-43a1-8121-254b8911f68b": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  },
+  "initialPage": "https://localhost:5432/workbench",
+  "api": {
+    "port": 5432,
+    "entryPath": "node_modules/@microsoft/sp-webpart-workbench/lib/api/"
+  }
+}

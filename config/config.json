@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "footer-link-form-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/footerLinkForm/FooterLinkFormApplicationCustomizer.js",
+          "manifest": "./src/extensions/footerLinkForm/FooterLinkFormApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FooterLinkFormApplicationCustomizerStrings": "lib/extensions/footerLinkForm/loc/{locale}.js"
+  
+  }
+}

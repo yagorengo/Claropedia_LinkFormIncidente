@@ -1,0 +1,17 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.app{
+    
+    background-color: #6c6969;
+    display: flex;
+    justify-content: flex-end;
+    .button{
+        margin-right: 50px;
+        font-size: 19px;
+        font-weight: bold;
+        color: white;
+    }
+    .button:hover{
+        color: red;
+    }
+}
